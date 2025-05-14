@@ -36,10 +36,7 @@ const navItems: NavItem[] = [
     name: "Input Data",
     icon: <CalenderIcon />,
     subItems: [
-      { name: "Transaksi", path: "/transaksi", pro: false },
-      { name: "Jurnal", path: "/jurnal", pro: false },
-      { name: "Ref. Akun", path: "/ref-akun", pro: false },
-      { name: "Ref. Akun - Transaksi", path: "/ref-akun-transaksi", pro: false },
+      { name: "Transaksi", path: "/transaksi", pro: false }
     ],
   },
   {
