@@ -23,6 +23,7 @@ import Transaksi from "./pages/Transaksi/Transaksi";
 import Jurnal from "./pages/Jurnal/Jurnal";
 import RefAkun from "./pages/RefAkun/RefAkun";
 import RefAkunTransaksi from "./pages/RefAkunTransaksi/RefAkunTransaksi";
+import Neraca from "./pages/Neraca/Neraca";
 
 export default function App() {
   return (
@@ -56,6 +57,9 @@ export default function App() {
             <Route path="/ref-akun" element={<RefAkun />} />
             {/*Referensi Transaksi*/}
             <Route path="/ref-akun-transaksi" element={<RefAkunTransaksi />} />
+
+            {/*Laporan - Neraca*/}
+            <Route path="/neraca" element={<Neraca />} />
 
             {/* Ui Elements */}
             <Route path="/alerts" element={<Alerts />} />

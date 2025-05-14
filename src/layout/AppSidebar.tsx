@@ -43,7 +43,7 @@ const navItems: NavItem[] = [
     name: "Laporan",
     icon: <TableIcon />,
     subItems: [
-      { name: "Neraca", path: "/basic-tables", pro: false },
+      { name: "Neraca", path: "/neraca", pro: false },
       { name: "Laba Rugi", path: "/basic-tables", pro: false },
       { name: "Aktiva Tetap", path: "/basic-tables", pro: false },
       { name: "Modal", path: "/basic-tables", pro: false },
