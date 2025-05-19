@@ -33,23 +33,49 @@ const navItems: NavItem[] = [
     path: "/unggah-data",
   },
   {
-    name: "Input Data",
+    name: "Transaksi",
     icon: <CalenderIcon />,
     subItems: [
-      { name: "Transaksi", path: "/transaksi", pro: false }
+      { name: "Penerimaan", path: "/transaksi", pro: false },
+      { name: "Pengeluaran - HPP", path: "/transaksi", pro: false },
+      { name: "Pengeluaran - Operasional", path: "/transaksi", pro: false },
+    ],
+  },
+  {
+    name: "Setup",
+    icon: <CalenderIcon />,
+    subItems: [
+      { name: "Paket", path: "/transaksi", pro: false },
+      { name: "Maskapai", path: "/transaksi", pro: false },
+      { name: "Hotel", path: "/transaksi", pro: false },
+      { name: "Provider Visa", path: "/transaksi", pro: false },
+      { name: "Provider LA", path: "/transaksi", pro: false },
+      { name: "Lokasi Manasik", path: "/transaksi", pro: false },
+      { name: "SDM", path: "/transaksi", pro: false },
+    ],
+  },
+  {
+    name: "Setup Akuntansi",
+    icon: <CalenderIcon />,
+    subItems: [
+      { name: "Akun", path: "/transaksi", pro: false },
+      { name: "Saldo Awal", path: "/transaksi", pro: false },
+      { name: "Jurnal (Auto)", path: "/transaksi", pro: false }
     ],
   },
   {
     name: "Laporan",
     icon: <TableIcon />,
     subItems: [
+      { name: "Rekap Pendapatan-Biaya", path: "/neraca", pro: false },
+      { name: "Rekap Pendapatan", path: "/basic-tables", pro: false },
+      { name: "Rekap Biaya", path: "/basic-tables", pro: false },
       { name: "Neraca", path: "/neraca", pro: false },
       { name: "Laba Rugi", path: "/basic-tables", pro: false },
-      { name: "Aktiva Tetap", path: "/basic-tables", pro: false },
-      { name: "Modal", path: "/basic-tables", pro: false },
       { name: "Arus Kas", path: "/basic-tables", pro: false },
-      { name: "Biaya", path: "/basic-tables", pro: false },
-      { name: "Paket Perjalanan", path: "/basic-tables", pro: false },
+      { name: "Aktiva Tetap", path: "/basic-tables", pro: false },
+      { name: "Modal", path: "/basic-tables", pro: false },      
+      { name: "Saldo Akun", path: "/basic-tables", pro: false }      
     ],
   }
 ];

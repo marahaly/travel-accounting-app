@@ -1,7 +1,7 @@
 import PageBreadcrumb from "../../components/common/PageBreadCrumb";
 import PageMeta from "../../components/common/PageMeta";
-import FileInputExample from "../../components/form/form-elements/FileInputExample";
-import UnggahDataList from "../../components/ecommerce/UnggahDataList";
+import FilterNeraca from "../../components/form/form-elements/FilterNeraca";
+import NeracaList from "../../components/ecommerce/NeracaList";
 
 export default function Neraca() {
   return (
@@ -12,8 +12,8 @@ export default function Neraca() {
       />
       <PageBreadcrumb pageTitle="Neraca" />
       <div className="space-y-6">
-        <FileInputExample />        
-        <UnggahDataList />
+        <FilterNeraca />
+        <NeracaList />
       </div>
     </>
   );
